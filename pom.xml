@@ -239,7 +239,8 @@
                         <!--</configuration>-->
                     <!--</plugin>-->
 
-                    <!-- PMD -->
+                    <!-- 
+ -->
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-pmd-plugin</artifactId>
@@ -321,9 +322,9 @@
                                 <plugin>
                                     <groupId>org.apache.maven.plugins</groupId>
                                     <artifactId>maven-pmd-plugin</artifactId>
-                                    <version>3.2</version>
+                                    <version>3.6</version>
                                     <configuration>
-                                        <targetJdk>1.6</targetJdk>
+                                        <targetJdk>1.8</targetJdk>
                                         <aggregate>true</aggregate>
                                         <format>xml</format>
                                         <rulesets>
